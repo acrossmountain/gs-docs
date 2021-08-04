@@ -10,8 +10,8 @@ module.exports = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'acrossmountain', // Usually your GitHub org/user name.
-  projectName: 'gs-docs', // Usually your repo name.
+  organizationName: 'acrossmountain',
+  projectName: 'gs-docs',
   themeConfig: {
     navbar: {
       hideOnScroll: true,
