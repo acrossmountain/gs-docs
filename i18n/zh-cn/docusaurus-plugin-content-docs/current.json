@@ -1,0 +1,22 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.docs.category.Getting Started": {
+    "message": "入门指南",
+    "description": "The label for category Getting Started in sidebar docs"
+  },
+  "sidebar.docs.category.Prologue": {
+    "message": "序言",
+    "description": "The label for category Prologue in sidebar docs"
+  },
+  "sidebar.docs.category.Version": {
+    "message": "版本管理",
+    "description": "The label for category Version in sidebar docs"
+  },
+  "sidebar.docs.category.Time line": {
+    "message": "版本更新记录",
+    "description": "The label for category Time line in sidebar docs"
+  }
+}

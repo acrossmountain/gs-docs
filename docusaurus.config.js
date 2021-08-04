@@ -10,10 +10,11 @@ module.exports = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'go-spring', // Usually your GitHub org/user name.
+  projectName: 'go-spring', // Usually your repo name.
   themeConfig: {
     navbar: {
+      hideOnScroll: true,
       title: 'Go-Spring',
       logo: {
         alt: 'Site Logo',
@@ -22,11 +23,15 @@ module.exports = {
       items: [
         {
           type: 'doc',
-          docId: 'intro',
+          docId: 'Prologue/introduction',
           position: 'left',
           label: 'Docs',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
+        // {
+        //   type: 'localeDropdown',
+        //   position: 'right',
+        // },
         {
           href: 'https://github.com/go-spring/go-spring',
           label: 'GitHub',
@@ -35,64 +40,81 @@ module.exports = {
       ],
     },
     footer: {
+      logo: {
+        alt: 'Go-Spring Logo',
+        src: 'img/logo@h.png',
+        href: 'https://go-spring.com'
+      },
       style: 'dark',
       links: [
         {
           title: 'Docs',
           items: [
             {
+              label: 'Quick Start',
+              to: '/docs/Getting Started/quick-start',
+            },
+            {
               label: 'Docs',
-              to: '/docs/intro',
+              to: '/docs/Prologue/introduction',
             },
           ],
         },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
-        },
+        // {
+        //   title: 'Community',
+        //   items: [
+        //     {
+        //       label: 'Stack Overflow',
+        //       href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+        //     },
+        //     {
+        //       label: 'Discord',
+        //       href: 'https://discordapp.com/invite/docusaurus',
+        //     },
+        //     {
+        //       label: 'Twitter',
+        //       href: 'https://twitter.com/docusaurus',
+        //     },
+        //   ],
+        // },
         {
           title: 'More',
           items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
+            // {
+            //   label: 'Blog',
+            //   to: '/blog',
+            // },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github/go-spring/go-spring',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Go-Spring, Inc. Built with Docusaurus.`,
     },
     prism: {
       theme: lightCodeTheme,
       darkTheme: darkCodeTheme,
     },
+    colorMode: {
+    }
+  },
+  i18n: {
+    defaultLocale: 'zh-cn',
+    locales: ['en', 'zh-cn'],
   },
   presets: [
     [
       '@docusaurus/preset-classic',
       {
         docs: {
+          path: 'docs',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+          editUrl: 'https://github.com/go-spring/website/edit/master/website/',
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
         },
         blog: {
           showReadingTime: true,
