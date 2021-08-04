@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgs_docs=self.webpackChunkgs_docs||[]).push([[535],{5641:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"\u53d1\u5e03 v1.0.5 \u7248\u672c","permalink":"/gs-docs/en/blog/v1.0.5-release"}]}')}}]);

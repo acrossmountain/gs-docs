@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://acrossmountain.github.io/gs-docs/en/blog</id>
+    <title>Go-Spring Blog</title>
+    <updated>2020-10-11T15:06:30.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://acrossmountain.github.io/gs-docs/en/blog"/>
+    <subtitle>Go-Spring Blog</subtitle>
+    <icon>https://acrossmountain.github.io/gs-docs/en/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[发布 v1.0.5 版本]]></title>
+        <id>v1.0.5-release</id>
+        <link href="https://acrossmountain.github.io/gs-docs/en/blog/v1.0.5-release"/>
+        <updated>2020-10-11T15:06:30.000Z</updated>
+        <summary type="html"><![CDATA[使用主项目和子项目的方式管理各个模块的代码，开发都在主项目上，子项目的代码和主项目保持同步，这种方式实现了更简单的包名称。]]></summary>
+    </entry>
+</feed>

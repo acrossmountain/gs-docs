@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Go-Spring Blog</title>
+        <link>https://acrossmountain.github.io/gs-docs/en/blog</link>
+        <description>Go-Spring Blog</description>
+        <lastBuildDate>Sun, 11 Oct 2020 15:06:30 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[发布 v1.0.5 版本]]></title>
+            <link>https://acrossmountain.github.io/gs-docs/en/blog/v1.0.5-release</link>
+            <guid>v1.0.5-release</guid>
+            <pubDate>Sun, 11 Oct 2020 15:06:30 GMT</pubDate>
+            <description><![CDATA[使用主项目和子项目的方式管理各个模块的代码，开发都在主项目上，子项目的代码和主项目保持同步，这种方式实现了更简单的包名称。]]></description>
+        </item>
+    </channel>
+</rss>

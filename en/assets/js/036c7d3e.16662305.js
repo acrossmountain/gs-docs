@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgs_docs=self.webpackChunkgs_docs||[]).push([[437],{9326:function(s){s.exports=JSON.parse('{"allTagsPath":"/gs-docs/en/blog/tags","slug":"go-spring","name":"go-spring","count":1,"permalink":"/gs-docs/en/blog/tags/go-spring"}')}}]);

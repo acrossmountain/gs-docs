@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgs_docs=self.webpackChunkgs_docs||[]).push([[404],{7562:function(e){e.exports=JSON.parse('{"permalink":"/gs-docs/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"previousPage":null,"nextPage":null,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

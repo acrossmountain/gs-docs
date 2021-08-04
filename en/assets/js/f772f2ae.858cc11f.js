@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgs_docs=self.webpackChunkgs_docs||[]).push([[317],{5726:function(s){s.exports=JSON.parse('{"allTagsPath":"/gs-docs/en/blog/tags","slug":"release","name":"release","count":1,"permalink":"/gs-docs/en/blog/tags/release"}')}}]);
