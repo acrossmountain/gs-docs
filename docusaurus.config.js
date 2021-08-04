@@ -5,13 +5,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: 'Go-Spring',
   tagline: '基于 IoC 的 Go 后端一站式开发框架 🚀',
-  url: 'https://go-spring.com',
-  baseUrl: '/',
+  url: 'https://acrossmountain.github.io/',
+  baseUrl: '/gs-docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'go-spring', // Usually your GitHub org/user name.
-  projectName: 'go-spring', // Usually your repo name.
+  organizationName: 'acrossmountain', // Usually your GitHub org/user name.
+  projectName: 'gs-docs', // Usually your repo name.
   themeConfig: {
     navbar: {
       hideOnScroll: true,
